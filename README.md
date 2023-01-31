@@ -9,8 +9,8 @@
 | [SSDTTime](https://github.com/corpnewt/SSDTTime)     | [corpnewt](https://github.com/corpnewt) | 自動生成ACPI文件   |
 
 ## 硬體配置
-| YFHD (我的電腦)||
-| :---- |:---------------|
+| EFI名稱| YFHD (我的電腦) |
+| :----- |:---------------|
 | 主機板 | ASUS-B85M-PLUS |
 | 處理器 | i7-4790        |
 | 記憶體 | DDR3-28GB      |
