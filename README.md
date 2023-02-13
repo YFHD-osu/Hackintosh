@@ -12,10 +12,10 @@
 ## 硬體配置
 | EFI名稱| YFHD (Success) |    EFI名稱| Tin (Success)          |     EFI名稱| Amelia (Failed)|
 | :----- |:---------------|    :----- |:----------------------|     :----- |:---------------|
-| 主機板 | ASUS-B85M-PLUS |    主機板 | GA-H81M-DS2 (rev. 2.1) |     主機板 | ???             |
-| 處理器 | i7-4790        |    處理器 | i3-4160                |     處理器 | i7-12700k       |
-| 記憶體 | DDR3-28GB      |    記憶體 | DDR3-8GB               |     記憶體 | ???             |
-| 顯示卡 | RX-470 GDDR5 4G|    顯示卡 | GTX-650                 |     顯示卡 | RX-570 GDDR5 8G |
-| 網路卡 | Intel® 217-V   |    網路卡 | Realtek RTL8125        |     網路卡 | ???             |
+| 主機板 | ASUS-B85M-PLUS |    主機板 | GA-H81M-DS2 (rev. 2.1) |     主機板 | Z690 AORUS ELITE DDR4  |
+| 處理器 | i7-4790        |    處理器 | i3-4160                |     處理器 | i5-12600k       |
+| 記憶體 | DDR3-28GB      |    記憶體 | DDR3-8GB               |     記憶體 | DDR4 32G             |
+| 顯示卡 | RX-470 GDDR5 4G|    顯示卡 | GTX-650                 |     顯示卡 | RX-570 GDDR5 4G |
+| 網路卡 | Intel® 217-V   |    網路卡 | Realtek RTL8125        |     網路卡 | 內建Realtek® 2.5GbE網路晶片           |
 
 ## 驅動程式
