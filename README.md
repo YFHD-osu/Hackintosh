@@ -19,3 +19,6 @@
 | 網路卡 | Intel® 217-V   |    網路卡 | Realtek RTL8125        |     網路卡 | 內建Realtek® 2.5GbE網路晶片           |
 
 ## 驅動程式
+| 名稱            | 連結                                                                       | 簡述                        |
+| :-----          |:---------------                                                            |    :-----                  |
+| HP印表機驅動程式 | [Apple](https://support.apple.com/kb/DL1888?viewlocale=zh_TW&locale=en_US) | HP印表機、掃描器通用驅動程式 |
