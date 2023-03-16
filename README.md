@@ -26,11 +26,11 @@
 ## 安裝時出現 pkgDownload Error 8 錯誤
 依據 [csdn](https://blog.csdn.net/qq_38017558/article/details/123171466) 的教學，首先打開終端機
 
-Step 1 到磁碟的跟目錄``cd /Volumes/Macintosh HD``\
-Step 2 建立放置安裝包的資料夾``mkdir private/tmp``\
-Step 3 將安裝報複製過來``cp -R /Install/macOS monterey.app private/tmp``\
-Step 4 進入剛剛建立的目錄``cd private/tmp``\
-Step 5 在安裝包中新增資料夾``mkdir Contents/SharedSupport``\
-Step 6 下載Ventura安裝套件``curl -L -o Contents/SharedSupport/SharedSupport.dmg https://swcdn.apple.com/content/downloads/26/15/032-48342-A_OG2YEE7OSX/8sd3qpy79cimb7cjiy47cytps0gm7m0z5l/InstallAssistant.pkg``\
-Step 7 再次回到安裝目錄``cd /Volumes/Macintosh HD/private/tmp``\
-Step 8 執行安裝程式``./Contents/MacOS/InstallAssistant_springboard``\
+- Step 1 到磁碟的跟目錄``cd /Volumes/Macintosh HD``\
+- Step 2 建立放置安裝包的資料夾``mkdir private/tmp``\
+- Step 3 將安裝報複製過來``cp -R /Install/macOS monterey.app private/tmp``\
+- Step 4 進入剛剛建立的目錄``cd private/tmp``\
+- Step 5 在安裝包中新增資料夾``mkdir Contents/SharedSupport``\
+- Step 6 下載Ventura安裝套件``curl -L -o Contents/SharedSupport/SharedSupport.dmg https://swcdn.apple.com/content/downloads/26/15/032-48342-A_OG2YEE7OSX/8sd3qpy79cimb7cjiy47cytps0gm7m0z5l/InstallAssistant.pkg``\
+- Step 7 再次回到安裝目錄``cd /Volumes/Macintosh HD/private/tmp``\
+- Step 8 執行安裝程式``./Contents/MacOS/InstallAssistant_springboard``
