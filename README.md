@@ -16,7 +16,7 @@
 | 處理器 | i7-4790        |    處理器 | i3-4160                |     處理器 | i5-12600k              |
 | 記憶體 | DDR3-28GB      |    記憶體 | DDR3-10GB              |     記憶體 | DDR4 32G               |
 | 顯示卡 | RX-470 GDDR5 4G|    顯示卡 | GTX-650                |     顯示卡 | RX-570 GDDR5 4G        |
-| 網路卡 | Intel® 217-V   |    網路卡 | Realtek RTL8125        |     網路卡 | Realtek® 2.5GbE網路晶片 |
+| 網路卡 | Intel® 1217-V   |    網路卡 | Realtek RTL8125        |     網路卡 | Realtek® 2.5GbE網路晶片 |
 
 ## 驅動程式
 | 名稱            | 連結                                                                       | 簡述                        |
@@ -34,3 +34,6 @@
 - Step 6 下載Ventura安裝套件``curl -L -o Contents/SharedSupport/SharedSupport.dmg https://swcdn.apple.com/content/downloads/26/15/032-48342-A_OG2YEE7OSX/8sd3qpy79cimb7cjiy47cytps0gm7m0z5l/InstallAssistant.pkg``
 - Step 7 再次回到安裝目錄``cd /Volumes/Macintosh HD/private/tmp``
 - Step 8 執行安裝程式``./Contents/MacOS/InstallAssistant_springboard``
+
+或是使用``date``重設時間
+- ``date [月][日][時][分][年]`` (每個欄位只填兩位數)
