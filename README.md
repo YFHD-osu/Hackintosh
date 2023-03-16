@@ -22,3 +22,17 @@
 | 名稱            | 連結                                                                       | 簡述                        |
 | :-----          |:---------------                                                            |    :-----                  |
 | HP印表機驅動程式 | [Apple](https://support.apple.com/kb/DL1888?viewlocale=zh_TW&locale=en_US) | HP印表機、掃描器通用驅動程式 |
+
+## 安裝時出現 pkgDownload Error 8 錯誤
+依據 [csdn](https://blog.csdn.net/qq_38017558/article/details/123171466) 的教學，首先打開終端機
+```
+cd /Volumes/Macintosh HD #到磁碟的跟目錄
+mkdir private/tmp #建立放置安裝包的資料夾
+cp -R /Install/macOS monterey.app private/tmp #將安裝報複製過來
+cd private/tmp #進入剛剛建立的目錄
+mkdir Contents/SharedSupport #在安裝包中新增資料夾
+curl -L -o Contents/SharedSupport/SharedSupport.dmg https://swcdn.apple.com/content/downloads/26/15/032-48342-A_OG2YEE7OSX/8sd3qpy79cimb7cjiy47cytps0gm7m0z5l/InstallAssistant.pkg #下載Ventura安裝套件
+cd /Volumes/Macintosh HD/private/tmp #再次回到安裝目錄
+./Contents/MacOS/InstallAssistant_springboard 執行安裝程式
+
+```
