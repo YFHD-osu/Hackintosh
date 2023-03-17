@@ -35,5 +35,5 @@
 - Step 7 再次回到安裝目錄``cd /Volumes/Macintosh HD/private/tmp``
 - Step 8 執行安裝程式``./Contents/MacOS/InstallAssistant_springboard``
 
-或是使用``date``重設時間
-- ``date [月][日][時][分][年]`` (每個欄位只填兩位數)
+或是使用``date``指令設定正確時間
+- ``date [月月][日日][時時][分分][年年]`` (每個欄位只填兩位數)
