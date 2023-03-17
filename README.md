@@ -10,7 +10,7 @@
 | [USBMap](https://github.com/corpnewt/USBMap)         | [corpnewt](https://github.com/corpnewt) | 配置USB孔的裝置路徑 |
 
 ## 硬體配置
-| EFI名稱| YFHD ✔️        |    EFI名稱| Tin ✔️                |     EFI名稱| Amelia ❌             |
+| EFI名稱| YFHD ❌        |    EFI名稱| Tin ❌                |     EFI名稱| Amelia ❌             |
 | :----- |:---------------|    :----- |:----------------------|     :----- |:----------------------|
 | 主機板 | ASUS-B85M-PLUS |    主機板 | GA-H81M-DS2 (rev. 2.1) |     主機板 | Z690 AORUS ELITE DDR4  |
 | 處理器 | i7-4790        |    處理器 | i3-4160                |     處理器 | i5-12600k              |
