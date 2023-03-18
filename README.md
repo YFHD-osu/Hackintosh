@@ -22,7 +22,7 @@
 | 名稱            | 連結                                                                       | 簡述                        |
 | :-----          |:---------------                                                            |    :-----                  |
 | HP印表機驅動程式 | [Apple](https://support.apple.com/kb/DL1888?viewlocale=zh_TW&locale=en_US) | HP印表機、掃描器通用驅動程式 |
-
+| Opencore Configurator| [altervista](https://mackie100projects.altervista.org/download-opencore-configurator/) | 圖形化介面的EFI編輯工具 |
 ## 安裝時出現 pkgDownload Error 8 錯誤
 依據 [csdn](https://blog.csdn.net/qq_38017558/article/details/123171466) 的教學，首先打開終端機
 
