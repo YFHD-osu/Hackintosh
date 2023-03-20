@@ -14,7 +14,7 @@
 | :----- |:--------------|:-----------------------|:----------------------|
 | 主機板 | ASUS-B85M-PLUS | GA-H81M-DS2 (rev. 2.1) | Z690 AORUS ELITE DDR4  |
 | 處理器 | i7-4790        | i3-4160                | i5-12600k              |
-| 記憶體 | DDR3-28GB      | DDR3-10GB              | DDR4 32G               |
+| 記憶體 | DDR3-24GB      | DDR3-10GB              | DDR4 32G               |
 | 顯示卡 | RX-470 GDDR5 4G| GTX-650                | RX-570 GDDR5 4G        |
 | 網路卡 | Intel® 1217-V  | Realtek RTL8125        | Realtek® 2.5GbE網路晶片 |
 
