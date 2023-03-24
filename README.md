@@ -40,4 +40,4 @@
   > ``date [月月][日日][時時][分分][年年]`` (每個欄位只填兩位數) 
 
 - 方案3 檢查記憶體是否損毀
-  > 使用 (memtest86+)[https://www.memtest86.com/] 測試記憶體狀態
+  > 使用 [memtest86+](https://www.memtest86.com/) 測試記憶體狀態
