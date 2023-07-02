@@ -1,6 +1,24 @@
 # Hackintosh
 人生第一台黑蘋果
 
+## EFI說明
+| 資料夾名稱         | OpenCore版本 |
+| :---------------- | :---------: |
+| macOS 11 BigSur   | 0.8.0       |
+| macOS 12 Monterey | 0.8.0       |
+| macOS 13 Ventura  | 0.8.8       |
+
+
+## 硬體配置
+| 名稱   | 型號               |
+| :----- |:------------------|
+| 主機板 | ASUS-B85M-PLUS     |
+| 處理器 | i7-4790            |
+| 記憶體 | DDR3-24GB          |
+| 顯示卡 | RX-470 GDDR5 4G    |
+| 網路卡 | Intel® 1217-V      |
+| 硬碟   | WD Blue SA510 250G |
+
 ## EFI輔助工具
 | 軟體                                                 | 作者                                     | 簡述              |
 | :--------------------------------------------------- |:----------------------------------------| :-----------------|
@@ -8,24 +26,16 @@
 | [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)   | [corpnewt](https://github.com/corpnewt) | 生成為啟用的SMBIOS |
 | [SSDTTime](https://github.com/corpnewt/SSDTTime)     | [corpnewt](https://github.com/corpnewt) | 自動生成ACPI文件   |
 | [USBMap](https://github.com/corpnewt/USBMap)         | [corpnewt](https://github.com/corpnewt) | 配置USB孔的裝置路徑 |
-
-## 硬體配置
-| EFI名稱| YFHD ✅        | Tin ❌                | Amelia ❌             |
-| :----- |:--------------|:-----------------------|:----------------------|
-| 主機板 | ASUS-B85M-PLUS | GA-H81M-DS2 (rev. 2.1) | Z690 AORUS ELITE DDR4  |
-| 處理器 | i7-4790        | i3-4160                | i5-12600k              |
-| 記憶體 | DDR3-24GB      | DDR3-10GB              | DDR4 32G               |
-| 顯示卡 | RX-470 GDDR5 4G| GTX-650                | RX-570 GDDR5 4G        |
-| 網路卡 | Intel® 1217-V  | Realtek RTL8125        | Realtek® 2.5GbE網路晶片 |
+| [Opencore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) | [notiflux](https://github.com/notiflux) | 圖形化介面的EFI編輯工具 |
 
 ## 驅動程式
 | 名稱            | 連結                                                                       | 簡述                        |
 | :-----          |:---------------                                                            |    :-----                  |
 | HP印表機驅動程式 | [Apple](https://support.apple.com/kb/DL1888?viewlocale=zh_TW&locale=en_US) | HP印表機、掃描器通用驅動程式 |
-| Opencore Configurator| [altervista](https://mackie100projects.altervista.org/download-opencore-configurator/) | 圖形化介面的EFI編輯工具 |
+
 
 ## 硬體採坑
-避免的SSD: 
+避免的SSD: (待驗證) 
 - WD 藍標 Blue 250G 250GB SSD
 
 ## 安裝時出現 pkgDownload Error 8 錯誤
