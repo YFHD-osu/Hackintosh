@@ -2,12 +2,13 @@
 人生第一台黑蘋果
 
 ## EFI說明
-| 資料夾名稱         | OpenCore版本 |
-| :---------------- | :---------: |
-| macOS 11 BigSur   | 0.8.0       |
-| macOS 12 Monterey | 0.8.0       |
-| macOS 13 Ventura  | 0.8.8       |
-
+| 資料夾名稱         | OpenCore版本 | 備註        |
+| :---------------- | :----------: | :----------|
+| macOS 11 BigSur   | 0.8.0        | 穩定       |
+| macOS 12 Monterey | 0.8.0        | 穩定       |
+| macOS 13 Ventura  | 0.8.8        | 穩定       |
+| macOS 14 Sonoma   | 0.9.3        | 只有EFI配好 |
+ 
 
 ## 硬體配置
 | 名稱   | 型號               |
