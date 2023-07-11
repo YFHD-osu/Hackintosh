@@ -34,11 +34,6 @@
 | :-----          |:---------------                                                            |    :-----                  |
 | HP印表機驅動程式 | [Apple](https://support.apple.com/kb/DL1888?viewlocale=zh_TW&locale=en_US) | HP印表機、掃描器通用驅動程式 |
 
-
-## 硬體採坑
-避免的SSD: (待驗證) 
-- WD 藍標 Blue 250G 250GB SSD
-
 ## 安裝時出現 pkgDownload Error 8 錯誤
 - 方案1 使用終端機下載``InstallAssistant.pkg``
   > 依據 [csdn](https://blog.csdn.net/qq_38017558/article/details/123171466) 的教學，首先打開終端機 \
