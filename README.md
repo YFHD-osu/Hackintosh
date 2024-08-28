@@ -1,9 +1,19 @@
 # Hackintosh
 My first hackintosh
 
-## Setup
+## Hardware Info
+| Name        | Model              |
+| :---------- |:------------------ |
+| MotherBoard | ASUS-B85M-PLUS     |
+| CPU         | i7-4790            |
+| RAM         | DDR3-24GB          |
+| GPU         | RX-470 GDDR5 4G    |
+| Ethernet    | Intel® 1217-V      |
+| Disk        | WD Blue SA510 250G |
 
-| Filename             | macOS       | OC Version   |
+## Setup
+### Choose correct plist verison 
+| Filename             | Tested on   | OC Version   |
 | :------------------- | :---------- | :----------: |
 | ``config-v11.plist`` | 11 BigSur   | 0.8.0        |
 | ``config-v12.plist`` | 12 Monterey | 0.8.0        |
@@ -17,6 +27,9 @@ Download correct [Opencore](https://github.com/acidanthera/OpenCorePkg/) version
 
 > [!IMPORTANT]  
 > Those config havn't filled in correct serial number, please use ``PlatformInfo\Generic\SystemProductName`` to generate unique SMBIOS 
+
+> [!IMPORTANT]  
+> My ``UTBMap.kext`` might not work with every hardware, if you are experiencing USB not detected issue, you'll need to map USB yourself
 
 ### ACPI Folder
 Download ACPI folder in this repository and move them to ``\OC\ACPI``
@@ -46,20 +59,6 @@ Download [OcBinaryData](https://github.com/acidanthera/OcBinaryData) and exetact
 Copy these .efi files below from opencore package
 - OpenShell.efi
 - ResetSystem.efi
-
-
-
-
-
-## Hardware
-| Name        | Model              |
-| :---------- |:------------------ |
-| MotherBoard | ASUS-B85M-PLUS     |
-| CPU         | i7-4790            |
-| RAM         | DDR3-24GB          |
-| GPU         | RX-470 GDDR5 4G    |
-| Ethernet    | Intel® 1217-V      |
-| Disk        | WD Blue SA510 250G |
 
 ## Driver
 | 名稱            | 連結                                                                       | 簡述                        |
