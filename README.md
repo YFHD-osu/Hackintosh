@@ -30,8 +30,10 @@ Download correct [Opencore](https://github.com/acidanthera/OpenCorePkg/) version
 
 > [!IMPORTANT]  
 > My ``UTBMap.kext`` might not work with every hardware, if you are experiencing USB not detected issue, you'll need to map USB yourself
+<img width="500" alt="file-001" src="https://github.com/user-attachments/assets/ca41ec97-299e-4bbe-a280-19f8b46c73e1">
 
 ### ACPI Folder
+
 Download ACPI folder in this repository and move them to ``\OC\ACPI``
 
 ### Drivers Folder
