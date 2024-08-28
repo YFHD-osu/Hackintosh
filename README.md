@@ -45,7 +45,7 @@ Copy these .efi files below from opencore package
 ### Kexts Folder
 Download these .kext file below
 - [AppleALC.kext](https://github.com/acidanthera/AppleALC)
-- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi)
+- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi) or [WOL Version](https://github.com/fischerscode/IntelMausi-WOL?tab=readme-ov-file)
 - [Lilu.kext](https://github.com/acidanthera/Lilu)
 - [USBToolBox.kext](https://github.com/USBToolBox/kext)
 - UTBMap.kext
