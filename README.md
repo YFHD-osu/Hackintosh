@@ -23,17 +23,15 @@ My first hackintosh
 Download correct [Opencore](https://github.com/acidanthera/OpenCorePkg/) version
 
 > [!IMPORTANT]  
-> It's required to diable iGPU in BIOS if you are using macOS 13 or above
-
-> [!IMPORTANT]  
-> Those config havn't filled in correct serial number, please use ``PlatformInfo\Generic\SystemProductName`` to generate unique SMBIOS 
-
-> [!IMPORTANT]  
-> My ``UTBMap.kext`` might not work with every hardware, if you are experiencing USB not detected issue, you'll need to map USB yourself
+> - Diable iGPU in BIOS if you are using macOS 13 or above
+> - Fill in your SMBIOS in``PlatformInfo\Generic\SystemProductName``
+> - USB mapping (``UTBMap.kext``) may not work on your device, you may need to map by yourself 
 <img width="500" alt="file-001" src="https://github.com/user-attachments/assets/ca41ec97-299e-4bbe-a280-19f8b46c73e1">
 
-### ACPI Folder
+> [!TIP]
+> Set value in ``Misc/Boot/ShowPicker`` to toggle boot menu
 
+### ACPI Folder
 Download ACPI folder in this repository and move them to ``\OC\ACPI``
 
 ### Drivers Folder
@@ -81,6 +79,3 @@ py macrecovery.py -b Mac-4B682C642B45593E -m 00000000000000000 download
 # Sonoma (14)
 py macrecovery.py -b Mac-937A206F2EE63C01 -m 00000000000000000 download
 ```
-
-## In order to skip boot select menu
-Set ``Misc/Boot/ShowPicker`` to False in ``config.plist``
